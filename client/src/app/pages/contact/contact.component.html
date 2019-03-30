@@ -1,0 +1,91 @@
+<div *ngIf="isLoggedIn()" class="container">
+  <div class="row">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header alert-success">Secure</h5>   
+        <font size="5" >
+            <!--used table to display contact information-->
+    <table id="detail" > 
+        <tr>
+            <th>Name:</th>
+            <th> kaivalkumar Patel</th>
+        </tr>
+        <tr>
+            <th>
+                E-mail:
+            </th>
+            <th>
+                kaival1996@gmail.com
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Phone:
+            </th>
+            <th>
+                647-515-2302
+            </th>
+        </tr>
+    </table>
+</font> 
+        <div class="card-body">
+          <a routerLink="contact-list" class="btn btn-primary"><i class="fas fa-users fa-lg"></i> Contact List</a>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div *ngIf="isLoggedIn()" class="container">
+    <div class="row">
+      <div class="col col-md-6">
+        <div class="card">
+          <h5 class="card-header alert-success">Message me below to contact</h5>
+
+<table  width='480px' cellpadding='0' cellspacing='0'>
+  <tr>
+       <td ><h1 ></h1></td>
+    </tr>
+     
+    <table border='0' width='480px' cellpadding='0' cellspacing='0' >
+    <tr>
+        <td>First Name:<input type='text' name='fname'></td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr>
+    <tr>
+        <td >Last Name:<input type='text' name='lname'></td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr> 
+    <tr> <td>&nbsp;</td> </tr>
+    <tr>
+        <td >Phone:<input type='text' name='name'></td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr>
+    <tr>
+        <td>Email:<input type='text' name='name'></td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr>
+    <tr>
+        <td>Message:<textarea name='Message'>
+          </textarea>
+        </td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr>
+    <table border='0' cellpadding='0' cellspacing='0' width='480px' >
+    <tr>
+    </tr>
+    </table>
+    </table>
+     
+    </table>
+
+    <div class="card-body">
+        <a routerLink="contact-list" class="btn btn-primary"><i class="fas fa-users fa-lg"></i> Contact List</a>
+      </div>
+      &nbsp;
+      </div>
+  </div>
+</div>
+</div>

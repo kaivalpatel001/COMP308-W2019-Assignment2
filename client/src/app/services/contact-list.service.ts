@@ -13,7 +13,7 @@ export class ContactListService {
   private user: User;
   private authToken: any = null;
 
-  private endpoint = 'https://comp308-w2019-assignment002.herokuapp.com/home';
+  private endpoint = 'https://comp308-w2019-assignment002.herokuapp.com/api';
 
  // private endpoint = 'http://localhost:3000/api/contact-list/';
 
